@@ -3,12 +3,14 @@
 A modern web application for students and professionals to manage their study timetables, plan revisions, and achieve their goals.
 
 ## Features
-- User Authentication System
+- User Authentication System (Login/Register)
 - Timetable Management
 - Intelligent Schedule Generation
 - Modern UI with Dark/Light Mode
 - OCR-based Timetable Upload
 - Calendar Integration
+- Notebook for Saving Notes
+- Download Timetable as Image
 
 ## Technologies Used
 - HTML
