@@ -15,37 +15,17 @@
         <button id="theme-toggle" class="p-2 rounded-full hover:bg-blue-700">
           🌓
         </button>
-        <button class="p-2 rounded-full hover:bg-blue-700">Login</button>
+        <a href="login.html" class="p-2 rounded-full hover:bg-blue-700">Login</a>
+        <a href="register.html" class="p-2 rounded-full hover:bg-blue-700">Register</a>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="container mx-auto p-4">
-    <div class="text-center">
-      <h2 class="text-4xl font-bold mb-4">Organize Your Study Time</h2>
-      <p class="text-lg mb-8">Plan your timetable, track progress, and achieve your goals.</p>
-      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Get Started</button>
-    </div>
-  </section>
-
-  <!-- Features Section -->
-  <section class="container mx-auto p-4">
-    <h3 class="text-2xl font-bold mb-4">Features</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-        <h4 class="text-xl font-bold mb-2">Timetable Management</h4>
-        <p>Create and manage your study timetable easily.</p>
-      </div>
-      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-        <h4 class="text-xl font-bold mb-2">OCR Upload</h4>
-        <p>Upload your timetable using OCR technology.</p>
-      </div>
-      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-        <h4 class="text-xl font-bold mb-2">Health Tips</h4>
-        <p>Get health and success advice tailored for you.</p>
-      </div>
-    </div>
+  <section class="container mx-auto p-4 text-center">
+    <h2 class="text-4xl font-bold mb-4">Organize Your Study Time</h2>
+    <p class="text-lg mb-8">Plan your timetable, track progress, and achieve your goals.</p>
+    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Get Started</button>
   </section>
 
   <!-- Timetable Generator -->
@@ -57,6 +37,19 @@
       <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Generate Timetable</button>
     </form>
     <div id="timetable-output" class="mt-8"></div>
+  </section>
+
+  <!-- Notebook Section -->
+  <section class="container mx-auto p-4">
+    <h3 class="text-2xl font-bold mb-4">Notebook</h3>
+    <textarea id="notebook" class="w-full p-2 border rounded-lg" rows="10" placeholder="Write your notes here..."></textarea>
+    <button id="save-notes" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 mt-4">Save Notes</button>
+  </section>
+
+  <!-- Download Section -->
+  <section class="container mx-auto p-4">
+    <h3 class="text-2xl font-bold mb-4">Download Timetable</h3>
+    <button id="download-timetable" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Download as Image</button>
   </section>
 
   <!-- Footer -->
