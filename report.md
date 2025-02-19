@@ -10,6 +10,8 @@ The Study Timetable Web Application is designed to help students and professiona
 4. **Dark/Light Mode**: Users can switch between themes for better readability.
 5. **OCR-based Timetable Upload**: Users can upload their timetable using OCR technology.
 6. **Calendar Integration**: Syncs with Google Calendar or other calendar apps.
+7. **Notebook**: Users can save notes and access them offline.
+8. **Download Timetable**: Users can download their timetable as an image.
 
 ## Future Enhancements
 - Add user authentication using Firebase.
