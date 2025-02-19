@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Timetable App</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4 text-white">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Study Timetable</h1>
+      <div>
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-blue-700">
+          🌓
+        </button>
+        <button class="p-2 rounded-full hover:bg-blue-700">Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto p-4">
+    <div class="text-center">
+      <h2 class="text-4xl font-bold mb-4">Organize Your Study Time</h2>
+      <p class="text-lg mb-8">Plan your timetable, track progress, and achieve your goals.</p>
+      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="container mx-auto p-4">
+    <h3 class="text-2xl font-bold mb-4">Features</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h4 class="text-xl font-bold mb-2">Timetable Management</h4>
+        <p>Create and manage your study timetable easily.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h4 class="text-xl font-bold mb-2">OCR Upload</h4>
+        <p>Upload your timetable using OCR technology.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h4 class="text-xl font-bold mb-2">Health Tips</h4>
+        <p>Get health and success advice tailored for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timetable Generator -->
+  <section class="container mx-auto p-4">
+    <h3 class="text-2xl font-bold mb-4">Generate Your Timetable</h3>
+    <form id="timetable-form" class="space-y-4">
+      <input type="text" id="activity" placeholder="Enter your daily activities" class="w-full p-2 border rounded-lg">
+      <input type="text" id="study-goal" placeholder="What do you want to study?" class="w-full p-2 border rounded-lg">
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Generate Timetable</button>
+    </form>
+    <div id="timetable-output" class="mt-8"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4 mt-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Study Timetable App. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
